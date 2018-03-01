@@ -29,3 +29,10 @@ cacheSolve <- function(x, ...) {
     x$setinverse(inv)
     inv  ## Return a matrix that is the inverse of 'x'
 }
+
+
+#x = rbind(c(1, -1/4), c(-1/4, 1))
+#m = makeCacheMatrix(x)
+#m$get()
+#cacheSolve(m)
+#cacheSolve(m)
